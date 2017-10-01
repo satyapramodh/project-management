@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content{
+	margin-top:10px;
+	height:74%;
+	width:100%;
+	position:relative;
+}
+
+#lcontent{
+	width:200px;
+	height:100%;
+	background:#CCC;
+	position:relative;
+	float:left;
+	opacity:0.5;
+}
+#rcontent{
+	position:relative;
+	min-width:720px;
+	width:82%;
+	height:100%;
+	margin-left:10px;
+	background:#fff;
+	float:left;
+	overflow:scroll;
+	-webkit-box-shadow:0px 0px 4px #000;
+	-o-box-shadow:0px 0px 4px #000;
+	-moz-box-shadow:0px 0px 4px #000;
+}
+#mcontent{
+	min-width:720px;
+	width:72%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background:#fff;
+	-webkit-box-shadow:0px 0px 4px #000;
+	-o-box-shadow:0px 0px 4px #000;
+	-moz-box-shadow:0px 0px 4px #000;
+	//border-radius:9px;	
+}
+#data{
+	margin-top:15px;
+	margin-left:20px;
+}
+
+#status{
+	color:black;
+	margin-top:-95px;
+	margin-right:25px;
+	//height:50px;
+	//width:100%;
+	font-size:18px;
+	//background:#CCCCCC;
+	position:relative;
+	float:right;
+	text-align:right;
+}
+#status a{
+	color:white;
+	}
+
+#lmenu{
+	font-weight:bold;
+	line-height: 25px;
+	position:relative;
+	float:left;
+}
+
+#lmenu{
+	list-style-type:none;
+}
+
+#lmenu li{
+	padding:0px;
+}
+
+#lmenu a{
+	border-radius: 3px;
+	display:block;
+	background: #066;
+	width:120px;
+	color:white;
+	padding-bottom:3px;
+	margin:2px;
+	padding-left:5px;
+	border-bottom: 1px white;
+
+}
+
+#lmenu a:hover{
+		transition:linear 1s;
+		-webkit-transition:all 0.4s;
+		background: #066;
+}
+
+#lmenu li:hover{
+		transition:linear 1s;
+	margin-left:8px;
+	-webkit-transition:all 0.4s;
+	background: #066;
+}
+#msgBlock{
+	//display:block;
+	background-color:lightblue;
+	margin:10px 0 10px 0;
+	border-radius:5px;
+	min-height:50px;
+	width:500px;
+	padding:25px 0 0 10px;
+	box-shadow:0 0 2px 1px grey;
+}
+#msgHead{
+	//border-right:thin dashed grey;
+	height:250px;
+	min-width:98px;
+}
+#msgBody{
+	//border:thin solid grey;
+	margin-left:10px;
+	width:398px;
+}
+#msgBlock:hover{
+	box-shadow: 0 0 4px 1px skyblue;
+}
+td{
+	padding-top:6px;
+	padding-left:10px;
+	padding-right:10px;
+}
+th{
+	background-color:skyblue;
+}
